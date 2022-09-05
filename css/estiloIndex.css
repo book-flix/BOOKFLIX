@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-color: rgb(233, 179, 179);
+    background-image: url(background2.jpg);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+h1{
+    color: white;
+    font-family:'Segoe UI';
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center; 
+    font-weight: 600;
+}
+
+
+input{
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+    border: 2px solid MidnightBlue;
+    font-size: 16px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    color: black;
+}
+
+input::placeholder {
+    color: black !important;
+    opacity: 0.9 !important;
+}
+
+input[type="button"], input[type="submit"] {
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: MidnightBlue;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.col-md-4 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.divBtn{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+.btn2{
+    width: 100%;
+} 
+
+.form-login{
+    width: 100%;
+    margin: 0 auto;
+} 
+
+@media all and (min-width: 470px){
+    .form-login{
+        width: 470px;
+        margin: 0 auto;
+    } 
+
+    .btn2{
+        width: 235px;
+    } 
+   
+}

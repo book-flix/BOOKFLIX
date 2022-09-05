@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-size: cover;
+    background-color: rgb(233, 179, 179);
+    background-image: url(background2.jpg);
+    margin-top: 20px;
+}
+
+h1{
+    color: rgb(95, 25, 0);
+    font-family:'Segoe UI';
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h6{
+    color: rgb(95, 25, 0);
+    font-family:'Segoe UI';
+    font-weight: 600;
+}
+
+.container-fluid{
+    align-items: center;                
+    justify-content: center;
+    max-width: 470px;
+} 
+
+.col-md-4 {
+    max-width: 470px;
+    text-align: center;
+    font-size: 18px; 
+    width: 100%;  
+}
+
+.form-control{
+    border: 2px solid rgb(95, 25, 0);
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    color: rgb(95, 25, 0);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0;
+    color: rgb(95, 25, 0);
+    font-weight: 500;
+}  
+
+input::placeholder {
+    color: rgb(95, 25, 0) !important;
+    font-weight: 600;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0;
+    color: rgb(95, 25, 0);
+}
+
+input[type="button"], input[type="submit"], input[type="reset"]  {
+    border-radius: 5px;
+    border: none !important;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(95, 25, 0);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+input{
+    margin: 5px 0px 10px 0px;
+    border-radius: 10px;
+    font-size: 12pt;
+    padding: 8px 8px 8px 8px;
+    outline: none;
+    color: rgb(95, 25, 0);
+    border: 2px solid brown !important;
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color: rgb(95, 25, 0) !important;
+    opacity: 0.9 !important;
+}
+
+.divBtn{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+.btn2{
+    width: 100%;
+} 
+
+@media all and (min-width: 470px){
+    .form-login{
+        width: 470px;
+        margin: 0 auto;
+    } 
+    .btn2{
+        width: 235px;
+    } 
+}

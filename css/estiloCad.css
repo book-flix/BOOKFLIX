@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: rgb(240, 207, 207);
+}
+
+h1{
+    color: rgb(95, 25, 0);
+    font-family:'Segoe UI';
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center !important;
+}
+
+h2{
+    color: rgb(95, 25, 0);
+    font-weight: 600;
+    position: relative;
+    text-align: Left;
+}
+
+h6{
+    color: rgb(95, 25, 0);
+    font-family:'Segoe UI';
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.container-fluid{
+    align-items: center;                
+    justify-content: center;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.form-select{
+    border: 1px solid rgb(95, 25, 0) !important;
+}
+
+label{
+    color: rgb(95, 25, 0);
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+p{
+    align-items: baseline;
+    text-align: justify;
+    color: rgb(95, 25, 0);
+    font-weight: 600;
+}
+
+.info {
+    margin: 15px;
+    display: flex;
+    flex: auto;
+}
+
+
+.info, .p {
+padding: 15px;
+margin-bottom: 5px;
+ }
+
+ .textOu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: rgb(95, 25, 0);
+    font-weight: 600;
+} 
+
+input{
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 12pt;
+    padding: 8px 8px 8px 8px;
+    outline: none;
+    color: rgb(95, 25, 0);
+    border: 1px solid brown !important;
+    box-shadow: none !important;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    border-radius: 5px;
+    border: none !important;
+    font-size: 16px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(95, 25, 0);
+    width: 100%;
+    margin-top: 15px;
+}
+
+input::placeholder {
+    color: rgb(95, 25, 0) !important;
+    opacity: 0.6 !important;
+}
+
+.divBtn{
+    align-items: end;
+    margin-top: auto;
+
+}
+
+/* essa parte é referente a tabela da página de consulta de dados */
+table{
+    font-size: 14px;
+    margin: 0 auto;   
+}
+
+.table{
+    margin-top: 10px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-style: dashed;
+}
+
+tbody{
+    border-top: 1px solid currentColor;
+}
+
+tr{
+    align-content: center;
+    vertical-align: middle;
+    
+}
+
+.table > :not(:first-child) {
+    border: 1px solid rgb(95, 25, 0);
+
+}
+
+.table > thead {
+    vertical-align: bottom;
+    border: 1px solid rgb(95, 25, 0);
+    background-color: rgb(95, 25, 0);
+    color: white;
+}
+
+td{
+    border-left: 1px dashed black;
+    background-color: white !important;
+    text-align: center;
+
+}
+
+th{
+    text-align: center;
+    border-left: 1px dashed white;
+
+}
+
+th, td{
+    max-width: 250px;
+    text-align-last: center;
+}
+
+.selection{
+    color: rgb(95, 25, 0);
+    font-weight: 600;
+    margin-left: 6px;
+    margin-bottom: 5px;
+}
+
+.fa-refresh{
+    padding: 7px;
+    background-color: rgb(95, 25, 0);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.EmpSel{
+    margin: 5px;
+}
+
+.tbl{
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+
+.selectMot{
+    margin-left: 4px;
+}
+
