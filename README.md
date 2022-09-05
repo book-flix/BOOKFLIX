@@ -1,4 +1,4 @@
-## BOOKFLIX - Projeto Uni9
+## :books: BOOKFLIX - PROJETO UNIVERSIDADE NOVE DE JULHO 🎓
 
 Integrantes do Grupo
 
@@ -14,3 +14,8 @@ Integrantes do Grupo
 - Raphael Domingos Alves de Souza
 
 ##
+
+Trabalho apresentado à Universidade Nove de Julho,
+UNINOVE, em cumprimento parcial às exigências da disciplina
+de Projeto em Desenvolvimento de Software, sob
+orientação da Prof. Debora Virgilia Canne. :heart:
