@@ -19,9 +19,3 @@ Trabalho apresentado à Universidade Nove de Julho,
 UNINOVE, em cumprimento parcial às exigências da disciplina
 de Projeto em Desenvolvimento de Software, sob
 orientação da Prof. Debora Virgilia Canne. :heart:
-
-##
-qualquer coisa
-
-##
-Ingrid s2
