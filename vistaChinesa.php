@@ -35,7 +35,7 @@
                         <p>A história é narrada para os filhos da protagonista anos depois do terrível episódio. Os fatos retrocedem e avançam no tempo. 
                         Temos o início de namoro de Júlia, sua lua de mel 
                         numa praia paradisíaca, a gestação. São momentos em que habilmente a autora constrói outra visão do corpo e da sexualidade de Júlia como uma prova, 
-                        para quem cometeu a violência e para si mesma, de que ela é ainda a dona da própria história.
+                        para quem cometeu a violência, e para si mesma, de que ela é ainda a dona da própria história.
                         </p> 
                 </div>
             </div>
