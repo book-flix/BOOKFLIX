@@ -10,11 +10,11 @@
 }
 
 body{
-    background-color: rgb(240, 207, 207);
+    background-color: #0b486b;
 }
 
 h1{
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-family:'Segoe UI';
     margin-bottom: 20px;
     margin-top: 30px;
@@ -22,14 +22,14 @@ h1{
 }
 
 h2{
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-weight: 600;
     position: relative;
     text-align: Left;
 }
 
 h6{
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-family:'Segoe UI';
     margin-bottom: 5px;
     font-weight: 600;
@@ -45,11 +45,11 @@ h6{
 }
 
 .form-select{
-    border: 1px solid rgb(95, 25, 0) !important;
+    border: 1px solid #FF8C00 !important;
 }
 
 label{
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-weight: 600;
     margin-left: 6px;
 }
@@ -57,7 +57,7 @@ label{
 p{
     align-items: baseline;
     text-align: justify;
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-weight: 600;
 }
 
@@ -79,7 +79,7 @@ margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-weight: 600;
 } 
 
@@ -89,8 +89,8 @@ input{
     font-size: 12pt;
     padding: 8px 8px 8px 8px;
     outline: none;
-    color: rgb(95, 25, 0);
-    border: 1px solid brown !important;
+    color: #FF8C00;
+    border: 1px solid #FF8C00!important;
     box-shadow: none !important;
 }
 
@@ -102,13 +102,13 @@ input[type="button"], input[type="submit"], input[type="reset"] {
     text-align: center;
     cursor: pointer;
     color: white;
-    background-color: rgb(95, 25, 0);
+    background-color: #FF8C00;
     width: 100%;
     margin-top: 15px;
 }
 
 input::placeholder {
-    color: rgb(95, 25, 0) !important;
+    color: #000000 !important;
     opacity: 0.6 !important;
 }
 
@@ -143,14 +143,14 @@ tr{
 }
 
 .table > :not(:first-child) {
-    border: 1px solid rgb(95, 25, 0);
+    border: 1px solid #FF8C00;
 
 }
 
 .table > thead {
     vertical-align: bottom;
-    border: 1px solid rgb(95, 25, 0);
-    background-color: rgb(95, 25, 0);
+    border: 1px solid #FF8C00;
+    background-color: #FF8C00;
     color: white;
 }
 
@@ -173,7 +173,7 @@ th, td{
 }
 
 .selection{
-    color: rgb(95, 25, 0);
+    color: #FF8C00;
     font-weight: 600;
     margin-left: 6px;
     margin-bottom: 5px;
@@ -181,7 +181,7 @@ th, td{
 
 .fa-refresh{
     padding: 7px;
-    background-color: rgb(95, 25, 0);
+    background-color: #FF8C00;
     color: white;
     border-radius: 5px;
     margin-bottom: 5px;

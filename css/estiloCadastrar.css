@@ -7,13 +7,13 @@
 
 body{
     background-size: cover;
-    background-color: rgb(233, 179, 179);
+    background-color: #0b486b;
     background-image: url(background2.jpg);
     margin-top: 20px;
 }
 
 h1{
-    color: rgb(95, 25, 0);
+    color: MidnightBlue;
     font-family:'Segoe UI';
     margin-bottom: 5px;
     text-align: center;
@@ -21,7 +21,7 @@ h1{
 }
 
 h6{
-    color: rgb(95, 25, 0);
+    color: MidnightBlue;
     font-family:'Segoe UI';
     font-weight: 600;
 }
@@ -40,37 +40,37 @@ h6{
 }
 
 .form-control{
-    border: 2px solid rgb(95, 25, 0);
+    border: 2px solid MidnightBlue;
     border-radius: 5px;
     background-color: white;
     padding: 10px;
-    color: rgb(95, 25, 0);
+    color: MidnightBlue;
 }
 
 .form-control:focus{
     box-shadow: 0 0 0 0;
-    color: rgb(95, 25, 0);
+    color: MidnightBlue;
     font-weight: 500;
 }  
 
 input::placeholder {
-    color: rgb(95, 25, 0) !important;
+    color: #272a2c !important;
     font-weight: 600;
 }
 
 .form-control:focus{
     box-shadow: 0 0 0 0;
-    color: rgb(95, 25, 0);
+    color: MidnightBlue;
 }
 
 input[type="button"], input[type="submit"], input[type="reset"]  {
     border-radius: 5px;
-    border: none !important;
+    border: 1px solid white;
     font-size: 18px;
     text-align: center;
     cursor: pointer;
     color: white;
-    background-color: rgb(95, 25, 0);
+    background-color: MidnightBlue;
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -83,13 +83,12 @@ input{
     font-size: 12pt;
     padding: 8px 8px 8px 8px;
     outline: none;
-    color: rgb(95, 25, 0);
-    border: 2px solid brown !important;
+    border: 2px solid MidnightBlue !important;
     box-shadow: none !important;
 }
 
 input::placeholder {
-    color: rgb(95, 25, 0) !important;
+    color: rgb(0, 0, 0) !important;
     opacity: 0.9 !important;
 }
 

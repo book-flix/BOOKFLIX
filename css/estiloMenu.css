@@ -105,7 +105,7 @@ ol ol, ol ul, ul ol, ul ul {
     text-align: center;
     font-size: medium;
     color:white; 
-    background-color: blue;
+    background-color: rgb(255, 140, 0);
     padding: 12px;
     border-radius: 5px;
 }
@@ -113,12 +113,12 @@ ol ol, ol ul, ul ol, ul ul {
 .fa-user::before {
     color: white;
     padding: 10px 20px 10px 5px;
-    background-color: blue;
+    background-color: #FF8C00;
     display: block;
 }
 
 li ul{
-    background-color: darksalmon;
+    background-color: #FF8C00;
     border: 1px solid rgb(95, 25, 0); 
     border-radius: 5px;
     text-align: left;
